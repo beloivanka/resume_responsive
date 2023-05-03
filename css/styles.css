@@ -1,0 +1,154 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(242, 182, 160, 0.26);
+}
+
+.photo-perso {
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin: 10px;
+}
+
+.photo-perso-container {
+    width: 33.3%;
+}
+
+.poste-recherche {
+    flex: auto;
+    font-size: 26px;
+    color: #37393c;
+
+}
+
+.info-perso {
+    width: 33.3%;
+    font-size: 26px;
+    color: #37393c;
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(247, 166, 137);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+/* Corps */
+
+.corps {
+    padding: 0% 2%;
+    color: #37393c;
+    font-size: 16px;
+}
+
+.corps-title {
+    padding: 0;
+    margin: 30px 0;
+    font-size: 24px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #37393c;
+}
+
+table {
+    width: 100%;
+}
+
+.skills tr td,
+.skills tr th {
+    padding: 10px 20px;
+    border: 1px solid #37393c;
+    width: 33%;
+}
+
+.skills tr th {
+    background-color: rgb(247, 166, 137);
+    color: white;
+}
+
+/*  */
+.gauche {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+/*  */
+
+.col1 {
+    width: 25%;
+}
+
+.col2 {
+    width: 75%;
+}
+
+label {
+    display: block;
+    float: left;
+    width: 10%;
+
+}
+
+.button-contact {
+    margin-left: 10%;
+    background-color: rgb(247, 166, 137);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 0;
+}
+
+.button-contact:hover {
+    background-color: rgb(255, 127, 80);
+}
+
+
+@media (max-width: 768px) {
+
+    .poste-recherche,
+    .info-perso,
+    .corps-title{
+        font-size: 14px;
+    }
+    .corps {
+        font-size: 12px; 
+    }
+    .menu-info,
+    .menu-expr,
+    .menu-contact,
+    footer {
+        font-size: 12px;
+    }
+    .photo-perso {
+        height: 100px;
+    }
+    .col1 {
+        width: 30%;
+    }
+    
+    .col2 {
+        width: 70%;
+    }
+    label {
+        width: 20%;
+    }
+    .button-contact {
+        margin-left: 20%;
+    }
+}
